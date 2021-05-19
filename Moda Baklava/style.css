@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    height: 100vh;
+    background-size: 100% 100%;     
+    background-repeat: no-repeat;    
+    background-attachment: fixed;
+}
+
+.indexBody {
+    background-image: url(./images/ikiBaklava.jpg);
+    
+}
+
+
+header {
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+}
+
+
+
+
+.logo {
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 10rem;
+    height: 5rem;    
+}
+
+.menu { 
+    /* background-color: rgba(0, 255, 255, 0.103);     */
+    list-style: none;    
+    width: 750px;
+    right: 0rem;
+    top: 1rem;
+    padding-left: 0;
+    margin: 0 auto;
+    position: fixed;
+    text-align: center;     
+}
+
+.menu li {
+    display: inline-block;
+    padding-top: 8px;
+	width: 140px;
+	margin-right: 1px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: sans-serif;
+}
+
+.menu li:last-child {
+	margin-right: 0;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: #EC6E00;
+	width: 140px;
+	padding-bottom: 10px;
+	display: block;
+	font-size: 16px;
+	border-bottom: 1px solid transparent;
+	transition: all 0.4s;
+}
+
+.menu li a:hover {
+	font-size: 18px;
+	border-color: #EC6E00;
+	padding-bottom: 2px;
+}
+
+
+
+ul li {
+    list-style-type: none;
+    margin: 0.3rem;
+}
+
+.center {
+    position: fixed;
+    top: 70%;
+    left: 4%;
+    transform: translate(-50%-50%);
+    user-select: none;
+
+}
+
+.center h1 {
+    color: #0a887dd0;
+    font-size: 70px;
+    font-weight: bold;
+    width: 700px;
+    text-align: left;
+    font-family: 'Alex Brush';
+}
+
+.center h2 {
+    font-family: 'Architects Daughter';
+    color: burlywood;
+}
+
+.icons {
+    font-size: 10px;
+    transition: all 0.4s;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.space {
+    padding-right: 1rem;
+}
+
+.space:hover {
+    color: rgb(94, 51, 3);
+}
+
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom: 0px;
+    
+}
+
+.copy {
+    text-align: center;
+}
+
+ 
+.auBody {
+    background-image: url(./images/aboutUs_image.jpg);
+    
+}
+
+.aucenter {
+    position: relative;
+    top: 20rem; 
+    width: 25%;   
+  
+}
+
+.aucenter h2 {
+    color: rgba(99, 194, 61, 0.801);
+}
+
+.aup1 {
+    color: white;
+}
+
+/* DESSERTS */
+
+.desserts {
+    
+    padding-top: 5rem;
+    width: 10rem;
+}
+
+.dmain {
+    background-color: beige;
+}
+
+
+
+.dfooter {
+    background-color: rgba(128, 255, 0, 0.212);
+}
+
+
+/* MULTIMEDIA */
+.fotoMM {
+    background-color: cyan;
+    display: inline-block;
+
+    margin-top: 6rem;
+    margin-left: 3rem;
+    
+    
+}
+
+.fotoMM img {
+    width: 20rem;
+    height: 20rem;
+    padding: 2rem;
+    
+}
+
